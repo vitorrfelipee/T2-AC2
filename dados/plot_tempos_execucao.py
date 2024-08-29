@@ -28,7 +28,7 @@ for i, operacao in enumerate(operacoes, 1):
     plt.title(f'Tempo de Execução: {operacao}')
     plt.xlabel('Tamanho da Matriz')
     plt.ylabel('Tempo Médio (segundos)')
-    plt.yscale('log')  # Usar escala logarítmica para melhor visualização
+    plt.yscale('log')  
     plt.grid(True)
 
 # Ajustar o layout dos subplots

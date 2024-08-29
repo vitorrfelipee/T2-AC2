@@ -203,6 +203,7 @@ func main() {
 		fmt.Println("1 - 100x100")
 		fmt.Println("2 - 1000x1000")
 		fmt.Println("3 - 10000x10000")
+		fmt.Println("4 - 100000x100000")
 		fmt.Print("Escolha: ")
 		var escolhaTamanho int
 		fmt.Scan(&escolhaTamanho)
@@ -214,6 +215,8 @@ func main() {
 			linhasA, colunasA, linhasB, colunasB = 1000, 1000, 1000, 1000
 		case 3:
 			linhasA, colunasA, linhasB, colunasB = 10000, 10000, 10000, 10000
+		case 4:
+			linhasA, colunasA, linhasB, colunasB = 100000, 100000, 100000, 100000
 		default:
 			fmt.Println("Escolha inválida.")
 			return
